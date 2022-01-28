@@ -14,6 +14,7 @@ and the Flutter guide for
 # Space Fixer
 
 > https://github.com/erlangparasu/space_fixer
+
 > https://pub.dev/packages/space_fixer
 
 ## Features
