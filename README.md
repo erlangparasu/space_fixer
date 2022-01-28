@@ -71,6 +71,8 @@ from the package authors, and more.
 
 This lib will most likely help to (temporarily) resolve issues like:
 
+mysterious dividers, spacing, one pixel line between, Dividing lines occur, produces unwanted divider lines, small gap, Lines between items, background color leak, Gaps between items
+
 - https://github.com/flutter/flutter/issues/14288
 - https://github.com/flutter/flutter/issues/15035
 - https://github.com/flutter/flutter/issues/29702
