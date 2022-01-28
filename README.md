@@ -19,17 +19,14 @@ and the Flutter guide for
 
 ## Getting started
 
-- `SpaceFixerHorizontalLine()`
-- `SpaceFixerVerticalLine()`
-
 How It Works
 
 ![Screenshot How It Works](images/space_fixer.ss.jpg?raw=true "Screenshot How It Works")
 
 Notes:
-- **blue** box represent background color (eg. listview container's color)
-- **black** box represent items (eg. listview children widgets)
-- **red** box represent `SpaceFixerHorizontalLine` (helper to hide unwanted gap)
+- **Blue** -> represent background color (eg. listview container's color)
+- **Black** -> represent items (eg. listview children widgets)
+- **Red** -> represent `SpaceFixerHorizontalLine` (helper to hide unwanted gap)
 
 ## Usage
 
@@ -40,6 +37,9 @@ flutter pub add space_fixer
 ```dart
 import 'package:space_fixer/space_fixer.dart';
 ```
+
+- `SpaceFixerHorizontalLine()`
+- `SpaceFixerVerticalLine()`
 
 TODO: Include short and useful examples for package users. Add longer examples
 to `/example` folder.
@@ -70,13 +70,9 @@ See: [example1.dart](example/example1.dart)
 
 ## Additional information
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
-
 This lib will most likely help to (temporarily) resolve issues like:
 
-mysterious dividers, spacing, one pixel line between, Dividing lines occur, produces unwanted divider lines, small gap, Lines between items, background color leak, Gaps between items
+mysterious dividers, spacing, one pixel line between, dividing lines occur, produces unwanted divider lines, small gap, lines between items, background color leaks, gaps between items
 
 - https://github.com/flutter/flutter/issues/14288
 - https://github.com/flutter/flutter/issues/15035
