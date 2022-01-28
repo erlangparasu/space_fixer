@@ -26,6 +26,11 @@ How It Works
 
 ![Screenshot How It Works](images/space_fixer.ss.jpg?raw=true "Screenshot How It Works")
 
+Notes:
+- **blue** box represent background color (eg. listview container's color)
+- **black** box represent items (eg. listview children widgets)
+- **red** box represent `SpaceFixerHorizontalLine` (helper to hide unwanted gap)
+
 ## Usage
 
 ```bash
