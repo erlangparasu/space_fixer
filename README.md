@@ -61,7 +61,7 @@ Container(
 // ...
 ```
 
-See: [example1](example/example1.dart)
+See: [example1.dart](example/example1.dart)
 
 ## Additional information
 
