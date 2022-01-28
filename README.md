@@ -39,7 +39,29 @@ import 'package:space_fixer/space_fixer.dart';
 TODO: Include short and useful examples for package users. Add longer examples
 to `/example` folder.
 
-See [example1](example/example1.dart)
+```dart
+// ...
+
+Container(
+    width: MediaQuery.of(context).size.width,
+    height: 50,
+    color: Colors.black,
+),
+SpaceFixerHorizontalLine(
+    context: context,
+    overflowHeight: 3,
+    overflowColor: Colors.black,
+),
+Container(
+    width: MediaQuery.of(context).size.width,
+    height: 50,
+    color: Colors.black,
+),
+
+// ...
+```
+
+See: [example1](example/example1.dart)
 
 ## Additional information
 
