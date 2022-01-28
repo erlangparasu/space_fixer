@@ -28,6 +28,14 @@ How It Works
 
 ## Usage
 
+```bash
+flutter pub add space_fixer
+```
+
+```dart
+import 'package:space_fixer/space_fixer.dart';
+```
+
 TODO: Include short and useful examples for package users. Add longer examples
 to `/example` folder.
 
