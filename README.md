@@ -13,6 +13,9 @@ and the Flutter guide for
 
 # Space Fixer
 
+> https://github.com/erlangparasu/space_fixer
+> https://pub.dev/packages/space_fixer
+
 ## Features
 
 - Hide unwanted/unexpected gap between widgets
@@ -29,8 +32,6 @@ Notes:
 - **Red** -> represent `SpaceFixerHorizontalLine` (helper to hide unwanted gap)
 
 ## Usage
-
-> https://pub.dev/packages/space_fixer
 
 ```bash
 flutter pub add space_fixer
