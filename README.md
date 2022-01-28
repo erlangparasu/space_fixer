@@ -43,26 +43,26 @@ from the package authors, and more.
 
 This lib will most likely help to (temporarily) resolve issues like:
 
-https://github.com/flutter/flutter/issues/15035
+1. https://github.com/flutter/flutter/issues/14288
 
-https://github.com/flutter/flutter/issues/62818
+2. https://github.com/flutter/flutter/issues/15035
 
-https://github.com/flutter/flutter/issues/54370
+3. https://github.com/flutter/flutter/issues/29702
 
-https://github.com/flutter/flutter/issues/14288
+4. https://github.com/flutter/flutter/issues/37168
 
-https://github.com/flutter/flutter/issues/29702
+5. https://github.com/flutter/flutter/issues/39815
 
-https://github.com/flutter/flutter/issues/58951
+6. https://github.com/flutter/flutter/issues/42927
 
-https://github.com/flutter/flutter/issues/58462
+7. https://github.com/flutter/flutter/issues/44008
 
-https://github.com/flutter/flutter/issues/46604
+8. https://github.com/flutter/flutter/issues/46604
 
-https://github.com/flutter/flutter/issues/44008
+9. https://github.com/flutter/flutter/issues/54370
 
-https://github.com/flutter/flutter/issues/42927
+10. https://github.com/flutter/flutter/issues/58462
 
-https://github.com/flutter/flutter/issues/39815
+11. https://github.com/flutter/flutter/issues/58951
 
-https://github.com/flutter/flutter/issues/37168
+12. https://github.com/flutter/flutter/issues/62818
