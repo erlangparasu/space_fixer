@@ -42,11 +42,11 @@ flutter pub add space_fixer
 import 'package:space_fixer/space_fixer.dart';
 ```
 
-- `SpaceFixerHorizontalLine()`
-- `SpaceFixerVerticalLine()`
-
 TODO: Include short and useful examples for package users. Add longer examples
 to `/example` folder.
+
+- `SpaceFixerHorizontalLine()`
+- `SpaceFixerVerticalLine()`
 
 ```dart
 // ...
