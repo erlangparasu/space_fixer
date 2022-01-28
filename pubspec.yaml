@@ -1,6 +1,6 @@
 name: space_fixer
-description: A new Flutter package project.
-version: 0.0.1
+description: space_fixer Hide unwanted/unexpected gap between widgets.
+version: 0.1.1
 homepage: https://github.com/erlangparasu/space_fixer
 
 environment:
