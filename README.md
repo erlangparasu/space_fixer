@@ -48,3 +48,17 @@ https://github.com/flutter/flutter/issues/54370
 https://github.com/flutter/flutter/issues/14288
 
 https://github.com/flutter/flutter/issues/29702
+
+https://github.com/flutter/flutter/issues/58951
+
+https://github.com/flutter/flutter/issues/58462
+
+https://github.com/flutter/flutter/issues/46604
+
+https://github.com/flutter/flutter/issues/44008
+
+https://github.com/flutter/flutter/issues/42927
+
+https://github.com/flutter/flutter/issues/39815
+
+https://github.com/flutter/flutter/issues/37168
