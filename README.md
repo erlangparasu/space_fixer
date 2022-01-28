@@ -22,7 +22,7 @@ TODO: List what your package can do. Maybe include images, gifs, or videos.
 
 How It Works
 
-![Screenshot How It Works](images/space_fixer.drawio.jpg?raw=true "Screenshot How It Works")
+![Screenshot How It Works](images/space_fixer.ss.jpg?raw=true "Screenshot How It Works")
 
 ## Usage
 
