@@ -39,9 +39,7 @@ import 'package:space_fixer/space_fixer.dart';
 TODO: Include short and useful examples for package users. Add longer examples
 to `/example` folder.
 
-```dart
-const like = 'sample';
-```
+See [example1](example/example1.dart)
 
 ## Additional information
 
