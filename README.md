@@ -30,6 +30,8 @@ Notes:
 
 ## Usage
 
+> https://pub.dev/packages/space_fixer
+
 ```bash
 flutter pub add space_fixer
 ```
