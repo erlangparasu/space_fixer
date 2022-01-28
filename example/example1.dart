@@ -1,5 +1,5 @@
 /// ErlangParasu 2022
-///
+
 library space_fixer;
 
 import 'package:flutter/material.dart';
