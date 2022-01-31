@@ -67,11 +67,8 @@ See: [example1.dart](example/example1.dart)
 
 ## Additional information
 
-unexpected
-
 This lib will most likely help to (temporarily) resolve issues like:
-
-mysterious dividers, spacing, one pixel line between, dividing lines occur, produces unwanted divider lines, small gap, lines between items, background color leaks, gaps between items
+unexpected divider, mysterious dividers, unexpected spacing, one pixel line between, dividing lines occur, unwanted divider lines, small gap, lines between items, gaps between items, background color leaks.
 
 - https://github.com/flutter/flutter/issues/14288
 - https://github.com/flutter/flutter/issues/15035
