@@ -13,13 +13,9 @@ and the Flutter guide for
 
 # Space Fixer
 
-> https://github.com/erlangparasu/space_fixer
-
-> https://pub.dev/packages/space_fixer
-
 ## Features
 
-- Hide unwanted/unexpected gap between widgets
+- Hide unexpected gap between widgets
 
 ## Getting started
 
@@ -30,7 +26,7 @@ How It Works
 Notes:
 - **Blue** -> represent background color (eg. listview container's color)
 - **Black** -> represent items (eg. listview children widgets)
-- **Red** -> represent `SpaceFixerHorizontalLine` (helper to hide unwanted gap)
+- **Red** -> represent `SpaceFixerHorizontalLine` (widget to hide unexpected gap)
 
 ## Usage
 
@@ -41,9 +37,6 @@ flutter pub add space_fixer
 ```dart
 import 'package:space_fixer/space_fixer.dart';
 ```
-
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
 
 - `SpaceFixerHorizontalLine()`
 - `SpaceFixerVerticalLine()`
@@ -74,6 +67,8 @@ See: [example1.dart](example/example1.dart)
 
 ## Additional information
 
+unexpected
+
 This lib will most likely help to (temporarily) resolve issues like:
 
 mysterious dividers, spacing, one pixel line between, dividing lines occur, produces unwanted divider lines, small gap, lines between items, background color leaks, gaps between items
@@ -90,3 +85,7 @@ mysterious dividers, spacing, one pixel line between, dividing lines occur, prod
 - https://github.com/flutter/flutter/issues/58462
 - https://github.com/flutter/flutter/issues/58951
 - https://github.com/flutter/flutter/issues/62818
+
+## Links
+- https://github.com/erlangparasu/space_fixer
+- https://pub.dev/packages/space_fixer
