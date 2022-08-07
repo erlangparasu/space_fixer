@@ -1,7 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:space_fixer/space_fixer.dart';
-
 void main() {
   test('adds one to input values', () {
     // final calculator = Calculator();
