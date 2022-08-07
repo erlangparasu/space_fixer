@@ -13,6 +13,10 @@ and the Flutter guide for
 
 # Space Fixer
 
+## Demo
+
+![Working Demo Gif](images/space_fixer_demo.gif)
+
 ## Features
 
 - Hide unexpected gap between widgets
@@ -42,28 +46,36 @@ import 'package:space_fixer/space_fixer.dart';
 - `SpaceFixerVerticalLine()`
 
 ```dart
-// ...
-
-Container(
-    width: MediaQuery.of(context).size.width,
-    height: 50,
-    color: Colors.black,
-),
-SpaceFixerHorizontalLine(
-    context: context,
-    overflowHeight: 3,
-    overflowColor: Colors.black,
-),
-Container(
-    width: MediaQuery.of(context).size.width,
-    height: 50,
-    color: Colors.black,
-),
-
-// ...
+class MyPage extends StatelessWidget {
+  const MyPage({Key? key}) : super(key: key);
+  @override
+  Widget build(BuildContext context) {
+    return Column(
+      children: [
+        Container(
+          width: MediaQuery.of(context).size.width,
+          height: 50,
+          color: Colors.black,
+        ),
+        
+        SpaceFixerHorizontalLine(         //<------- Notice Here 
+          overflowHeight: 3,
+          overflowColor: Colors.black,
+        ),
+        
+        Container(
+          width: MediaQuery.of(context).size.width,
+          height: 50,
+          color: Colors.black,
+        ),
+        
+      ]
+    );
+  }
+}
 ```
 
-See: [example1.dart](example/example1.dart)
+See: [example1.dart](example/lib/main.dart)
 
 ## Additional information
 
