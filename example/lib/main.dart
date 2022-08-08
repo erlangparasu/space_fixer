@@ -171,6 +171,81 @@ class MyHomePage extends StatelessWidget {
               ),
             ],
           ),
+          const Padding(
+            padding: EdgeInsets.all(20.0),
+            child: Text("Click black boxes below to see difference"),
+          ),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: [
+              Column(
+                children: [
+                  const Text("Before 😰"),
+                  SizedBox(
+                    width: MediaQuery.of(context).size.width / 2 * 0.80,
+                    height: MediaQuery.of(context).size.height / 2 * 0.80,
+                    child: InkWell(
+                      splashColor: Colors.pink.withOpacity(0.6),
+                      onTap: () {},
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: const [
+                          BlackInk(),
+                          BlackInk(),
+                          BlackInk(),
+                          BlackInk(),
+                          BlackInk(),
+                        ],
+                      ),
+                    ),
+                  ),
+                ],
+              ),
+              Column(
+                children: [
+                  const Text("After 😃"),
+                  SizedBox(
+                    width: MediaQuery.of(context).size.width / 2 * 0.80,
+                    height: MediaQuery.of(context).size.height / 2 * 0.80,
+                    child: InkWell(
+                      splashColor: Colors.pink.withOpacity(0.6),
+                      onTap: () {},
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: const [
+                          BlackInk(),
+                          SpaceFixerVerticalInkLine(
+                            height: 150,
+                            overflowWidth: 3,
+                            overflowColor: Colors.black,
+                          ),
+                          BlackInk(),
+                          SpaceFixerVerticalInkLine(
+                            height: 150,
+                            overflowWidth: 3,
+                            overflowColor: Colors.black,
+                          ),
+                          BlackInk(),
+                          SpaceFixerVerticalInkLine(
+                            height: 150,
+                            overflowWidth: 3,
+                            overflowColor: Colors.black,
+                          ),
+                          BlackInk(),
+                          SpaceFixerVerticalInkLine(
+                            height: 150,
+                            overflowWidth: 3,
+                            overflowColor: Colors.black,
+                          ),
+                          BlackInk(),
+                        ],
+                      ),
+                    ),
+                  ),
+                ],
+              ),
+            ],
+          ),
         ],
       ),
     );
@@ -186,6 +261,23 @@ class BlackContainer extends StatelessWidget {
       width: 50,
       height: 50,
       color: Colors.black,
+    );
+  }
+}
+
+class BlackInk extends StatelessWidget {
+  const BlackInk({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return SizedBox(
+      width: 25,
+      height: 150,
+      child: Ink(
+        decoration: const BoxDecoration(
+          color: Colors.black,
+        ),
+      ),
     );
   }
 }

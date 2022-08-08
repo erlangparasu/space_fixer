@@ -42,8 +42,13 @@ flutter pub add space_fixer
 import 'package:space_fixer/space_fixer.dart';
 ```
 
+Use these with same color widgets to hide line or space between them:
 - `SpaceFixerHorizontalLine()`
 - `SpaceFixerVerticalLine()`
+
+Use these with same color widgets inside buttons as they doesn't hide splash: while hiding line or space between them:
+- `SpaceFixerHorizontalInkLine()`
+- `SpaceFixerVerticalInkLine()`
 
 ```dart
 class MyPage extends StatelessWidget {
