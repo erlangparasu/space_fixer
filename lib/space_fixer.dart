@@ -2,7 +2,6 @@
 
 library space_fixer;
 
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class SpaceFixerHorizontalLine extends StatelessWidget {
